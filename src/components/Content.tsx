@@ -11,9 +11,9 @@ const Header = styled.h1`
 // flex justify-left flex-col
 
 export const Content = () => {
-    return <Header className='pb-56' >
+    return <Header className=' h-screen' >
         {/* <div className=" justify-center "> */}
-            <div className=" pl-60 pt-28"> 
+            <div className=" pl-60 pt-28 "> 
                 <div className=" text-[5rem] text-white">
                     Trusted Multi-Chain 
                 </div>

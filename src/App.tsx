@@ -9,7 +9,7 @@ import Roadmap from "./components/Roadmap"
 function App() {
 
   return (
-    <div className=" bg-gradient-radial h-screen">
+    <div className=" bg-gradient-radial">
       <Navbar/>
       <Content/>
       <Aboutus/>

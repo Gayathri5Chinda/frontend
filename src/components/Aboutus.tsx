@@ -19,7 +19,7 @@ export const Aboutus = () =>{
           <thead>
             <tr>
               <th className=" px-2 py-2 border-gray-700 border-r-2  border-b-2 text-yellow-500 text-2xl">Comparison</th>
-              <th className="  px-2 py-2 border-gray-700 border-r-2 text-yellow-500">
+              <th className=" px-2 py-2 border-gray-700 border-r-2 text-yellow-500">
                 <img className="w-[20rem] h-[5rem]" src={'/public/moonex.png'} alt="Moonex" />
               </th>
               <th className="px-2 py-2 text-pink-500">
