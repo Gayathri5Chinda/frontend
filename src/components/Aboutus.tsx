@@ -18,7 +18,7 @@ export const Aboutus = () =>{
         <table className="table-auto m-7 border-gray-700">
           <thead>
             <tr>
-              <th className=" pr-20 pl-20 pt-10 pb-10 border-gray-700 border-r-2 text-yellow-500 text-2xl">Comparison</th>
+              <th className=" pr-28 pl-28 pt-10 pb-10 border-gray-700 border-r-2 text-yellow-500 text-2xl">Comparison</th>
               <th className=" border-gray-700 border-r-2 text-yellow-500">
                 <img className="w-[20rem] h-[5rem]" src={'/public/moonex.png'} alt="Moonex" />
               </th>
