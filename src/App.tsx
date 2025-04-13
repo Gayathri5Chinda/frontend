@@ -4,6 +4,7 @@ import { Aboutus } from "./components/Aboutus"
 
 import { Footer1 } from "./components/Footer1"
 import Faqs from "./components/Faqs"
+import Roadmap from "./components/Roadmap"
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       <Content/>
       <Aboutus/>
       <Faqs/>
+      <Roadmap/>
       <Footer1/>
     </div>
   )

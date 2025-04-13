@@ -20,7 +20,7 @@ const faqData = [
 const FAQItem = ({ question, answer, isOpen, onClick }:any) => {
   return (
     <div
-      className="bg-gray-800 text-white rounded-lg shadow-md my-2 overflow-hidden"
+      className=" bg-gray-800 text-white rounded-lg shadow-md my-2 overflow-hidden"
       onClick={onClick}
     >
       <div className="flex justify-between items-center p-4 cursor-pointer">
@@ -48,7 +48,7 @@ const Faqs = () => {
   };
 
   return (
-    <div className="bg-[#071624] flex flex-col items-center justify-center ">
+    <div className="bg-[#071624] pt-52 p-60 flex flex-col items-center justify-center ">
       <h2 className="text-6xl font-bold text-white mb-8">
         <span className="text-yellow-400">FAQs</span>
       </h2>

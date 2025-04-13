@@ -1,3 +1,4 @@
+import { Link } from "react-scroll"
 
 export const Navbar = () => {
     return <nav className="grid grid-cols-6 items-center justify-between flex-wrap  p-10" >
@@ -12,9 +13,10 @@ export const Navbar = () => {
                 <button className="bg-transparent hover:bg-white text-white font-semibold hover:text-[#E4B40D] py-3 px-6 border border-transparent rounded-full">
                     About Us
                 </button>
-                <button className="bg-transparent  hover:bg-white text-white font-semibold hover:text-[#E4B40D] py-3 px-6 border border-transparent rounded-full">
+                <Link to = "roadmap" smooth={true} className="bg-transparent  hover:bg-white text-white font-semibold hover:text-[#E4B40D] py-3 px-6 border border-transparent rounded-full">
                    Roadmap
-                </button><button className="bg-transparent hover:bg-white text-white font-semibold hover:text-[#E4B40D] py-3 px-6 border border-transparent rounded-full">
+                </Link>
+                <button className="bg-transparent hover:bg-white text-white font-semibold hover:text-[#E4B40D] py-3 px-6 border border-transparent rounded-full">
                    FAQs
                 </button>
                 <button className="bg-transparent hover:bg-white text-white font-semibold hover:text-[#E4B40D] py-3 px-6 border border-transparent rounded-full">

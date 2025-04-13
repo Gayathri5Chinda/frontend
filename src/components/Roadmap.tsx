@@ -29,7 +29,7 @@ const features = [
 
 const FeatureCard = ({ icon, title, description }: any) => {
   return (
-    <div className="bg-gray-800 flex flex-col justify-end bg-opacity-30 text-white pl-10 p-14 mr-5 rounded-3xl border border-gray-800 shadow-md">
+    <div id = "roadmap" className="bg-gray-800 flex flex-col justify-end bg-opacity-30 text-white pl-10 p-14 mr-5 rounded-3xl border border-gray-800 shadow-md">
       <div className="text-2xl mb-10 bg-gray-700 bg-opacity-30 rounded-full ">{icon}</div>
       <h3 className="text-3xl font-sans font-normal mb-4">{title}</h3>
       <p className="text-xl font-sans font-normal text-gray-400">{description}</p>
@@ -38,8 +38,9 @@ const FeatureCard = ({ icon, title, description }: any) => {
 };
 
 const Roadmap = () => {
-  return (<div>
-    <div className="p-32">
+  return (
+  <div>
+    <div className="bg-[#071624] pb-32">
       <h2 className="text-6xl text-center pb-20 font-bold text-white ">
         Our <span className="text-yellow-400 ">Features</span>
       </h2>
