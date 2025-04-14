@@ -1,16 +1,16 @@
-import styled from "styled-components";
+//import styled from "styled-components";
 
 
-const Header = styled.h1`
-  font-family: 'Neue';
-  font-optical-sizing: auto;
-  font-weight: 600;
-`;
+// const Header = styled.h1`
+//   font-family: 'Neue';
+//   font-optical-sizing: auto;
+//   font-weight: 600;
+// `;
 
 // border-collapse border
 //[#071624]
 export const Aboutus = () =>{
-    return <Header className="h-screen bg-[#071624]">
+    return <div id = "aboutus" className="font-sansh-screen bg-[#071624]">
     <div className=" text-white ">
       <h1 className="text-6xl font-bold text-center">Why <span className="text-yellow-500">MoonEX</span>?</h1>
       <div className="flex justify-center rounded-b-3xl mt-20 m-80">
@@ -47,5 +47,5 @@ export const Aboutus = () =>{
       </div>
     </div>
     
-    </Header>
+    </div>
 };

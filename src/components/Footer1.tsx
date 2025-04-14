@@ -10,7 +10,7 @@
 import { FaTelegram, FaReddit, FaTwitter } from "react-icons/fa";
 export const Footer1 = () => {
   return (
-    <footer className="bg-[#071624] grid grid-cols-8 text-gray-400 py-32 font-family: 'Neue'">
+    <footer id="footer" className="bg-[#071624] grid grid-cols-8 text-gray-400 py-32 font-family: 'Neue'">
       
       <div className=" col-span-2 justify-normal pl-24">
         <img className="w-[10rem] h-[10rem]" src={'/public/footlog.png'} alt="Logo" />

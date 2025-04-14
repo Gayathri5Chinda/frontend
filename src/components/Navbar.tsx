@@ -10,18 +10,18 @@ export const Navbar = () => {
                 <button className="bg-transparent  hover:bg-white text-[#E4B40D] font-semibold hover:text-[#E4B40D] py-3 px-6 border border-transparent rounded-full">
                    Home
                 </button>
-                <button className="bg-transparent hover:bg-white text-white font-semibold hover:text-[#E4B40D] py-3 px-6 border border-transparent rounded-full">
+                <Link to = "aboutus" smooth={true}  className="bg-transparent hover:bg-white text-white font-semibold hover:text-[#E4B40D] py-3 px-6 border border-transparent rounded-full">
                     About Us
-                </button>
+                </Link>
                 <Link to = "roadmap" smooth={true} className="bg-transparent  hover:bg-white text-white font-semibold hover:text-[#E4B40D] py-3 px-6 border border-transparent rounded-full">
                    Roadmap
                 </Link>
-                <button className="bg-transparent hover:bg-white text-white font-semibold hover:text-[#E4B40D] py-3 px-6 border border-transparent rounded-full">
+                <Link to = "faqs" smooth={true} className="bg-transparent hover:bg-white text-white font-semibold hover:text-[#E4B40D] py-3 px-6 border border-transparent rounded-full">
                    FAQs
-                </button>
-                <button className="bg-transparent hover:bg-white text-white font-semibold hover:text-[#E4B40D] py-3 px-6 border border-transparent rounded-full">
+                </Link>
+                <Link to = "footer" smooth={true} className="bg-transparent hover:bg-white text-white font-semibold hover:text-[#E4B40D] py-3 px-6 border border-transparent rounded-full">
                    Contact Us
-                </button>
+                </Link>
             </div>
             <div className=" col-span-1 pl-30">
                 <button className="bg-[#E4B40D]  hover:bg-white text-black font-semibold hover:text-[#E4B40D] py-3 px-6 border border-transparent rounded-full">

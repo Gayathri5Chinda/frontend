@@ -19,10 +19,7 @@ const faqData = [
 
 const FAQItem = ({ question, answer, isOpen, onClick }:any) => {
   return (
-    <div
-      className=" bg-gray-800 text-white rounded-lg shadow-md my-2 overflow-hidden"
-      onClick={onClick}
-    >
+    <div id = "faqs" className=" bg-gray-800 text-white rounded-lg shadow-md my-2 overflow-hidden" onClick={onClick}>
       <div className="flex justify-between items-center p-4 cursor-pointer">
         <h3 className="text-lg font-semibold">{question}</h3>
         <button
